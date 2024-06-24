@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{7E087336-CC9C-4252-BA8A-EE0655492A66}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Zenject", "Zenject", "{CA4CF441-4B52-4755-8923-397ABAB1F383}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zenject", "Plugins\Zenject\Source\Zenject.csproj", "{275C6D20-BD5B-42CD-9F3A-1B8EE68DE923}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OptionalExtras", "OptionalExtras", "{75132AA4-BC36-4D36-A03F-71E918A13B22}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zenject-ReflectionBaking", "Plugins\Zenject\OptionalExtras\ReflectionBaking\Zenject-ReflectionBaking.csproj", "{18C793C9-CFBD-4B70-B315-626F4FCF25EE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zenject-Signals", "Plugins\Zenject\OptionalExtras\Signals\Zenject-Signals.csproj", "{678B076F-4F74-4F34-BCF2-469DD8143529}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{275C6D20-BD5B-42CD-9F3A-1B8EE68DE923}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{275C6D20-BD5B-42CD-9F3A-1B8EE68DE923}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{275C6D20-BD5B-42CD-9F3A-1B8EE68DE923}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{275C6D20-BD5B-42CD-9F3A-1B8EE68DE923}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18C793C9-CFBD-4B70-B315-626F4FCF25EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18C793C9-CFBD-4B70-B315-626F4FCF25EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18C793C9-CFBD-4B70-B315-626F4FCF25EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18C793C9-CFBD-4B70-B315-626F4FCF25EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{678B076F-4F74-4F34-BCF2-469DD8143529}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{678B076F-4F74-4F34-BCF2-469DD8143529}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{678B076F-4F74-4F34-BCF2-469DD8143529}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{678B076F-4F74-4F34-BCF2-469DD8143529}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CA4CF441-4B52-4755-8923-397ABAB1F383} = {7E087336-CC9C-4252-BA8A-EE0655492A66}
+		{275C6D20-BD5B-42CD-9F3A-1B8EE68DE923} = {CA4CF441-4B52-4755-8923-397ABAB1F383}
+		{75132AA4-BC36-4D36-A03F-71E918A13B22} = {CA4CF441-4B52-4755-8923-397ABAB1F383}
+		{18C793C9-CFBD-4B70-B315-626F4FCF25EE} = {75132AA4-BC36-4D36-A03F-71E918A13B22}
+		{678B076F-4F74-4F34-BCF2-469DD8143529} = {75132AA4-BC36-4D36-A03F-71E918A13B22}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1BDD7098-86AB-4441-A9FD-F2B2FA658655}
+	EndGlobalSection
+EndGlobal
